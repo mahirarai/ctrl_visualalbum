@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+    var sites = [
+      'garden.html',
+      'anything.html',
+      'brokenclocks.html',
+      'dovesinthewind.html',
+      'drewbarrymore.html',
+      'gogina.html',
+      'lovegalore.html',
+      'normalgirl.html',
+      'prettylittlebirds.html',
+      'prom.html',
+      'supermodel.html',
+      'theweekend.html',
+      'twentysomething.html',
+      'wavy.html'
+    ];
+
+    function randomSite() {
+      var i = parseInt(Math.random() * sites.length);
+      location.href = sites[i];
+    }
+
+    </script>
+
+  </head>
+  <body>
+    <header>
+      <audio  controls autoplay loop>
+        <source src="track/prom.mp3">
+      </audio>
+    </header>
+
+    <div id="main">
+      <img src="content/promedit.jpg" alt="background">
+    </div>
+
+    <p>Feel like I'm wastin' time</p>
+
+    <!-- image nodes linked to random link -->
+    <!-- <a href="#" onclick="randomSite();" ><img src="content/glitch_01.gif"</a> -->
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+    <a href="#" id="link" onclick="randomSite();" >link</a>
+
+    <a href="theweekend.html">
+      <img src="content/glitchlink.gif" alt="NEXT" style="width:30px;height:relative;border:0;">
+    </a>
+
+  </body>
+</html>
